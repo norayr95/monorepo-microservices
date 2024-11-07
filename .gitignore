@@ -1,11 +1,124 @@
-**.venv/
-**.idea/
-**.DS_Store
-**__pycache__/
-**.pytest_cache/
-**.pytest_cache
-**.vscode/
-**.vscode
-**.mypy_cache/
-**.mypy_cache
-**.env
+# Virtual environments
+.venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Django specific
+*.log
+db.sqlite3
+media/
+staticfiles/
+.env
+*.env
+*.pot
+*.py[cod]
+local_settings.py
+
+# FastAPI specific
+instance/
+*.db
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+# Usually these files are written by a python script from a config file
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# dotenv
+.env
+.env.*
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+.vscode
+
+# IntelliJ IDEA
+.idea/
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# React specific
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.yarn-integrity
+.yarn/
+.pnp.*
+
+# Build directories for frontend frameworks
+build/
+dist/
+
+# Package directories
+**/node_modules/
+**/bower_components/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnp.js
+.lock-wscript
+.pnp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
